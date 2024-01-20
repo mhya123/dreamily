@@ -18,6 +18,15 @@
         <div class="col-4">
           <h5>友情链接</h5>
           <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://mhxmb.shop" target="_blank">梦幻小卖部</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://cloud.mhkvm.net" target="_blank">梦幻云</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://" target="_blank"></a>
+            </li>
             <% for (var item in site.data.links){%>
               <li class="list-inline-item">
                 <%- link_to(site.data.links[item]['link'], site.data.links[item]['name'], {external: true}) %>
